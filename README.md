@@ -1,1 +1,1 @@
-This is Veeti's first Git project!
+Time series info
