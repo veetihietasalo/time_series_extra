@@ -1,5 +1,7 @@
 # time_series_extra
 
+Rendered notebook: https://veetihietasalo.github.io/time_series_extra/ (the saved outputs, not re-run)
+
 One Jupyter notebook, `aikasarjat_extra.ipynb` (aikasarjat = time series), with short examples in Finnish on working with time series in pandas. Made in Google Colab in March 2024.
 
 What's in it (16 cells):
@@ -20,5 +22,7 @@ jupyter notebook aikasarjat_extra.ipynb
 ```
 
 `sns.load_dataset` downloads the data, so it needs internet. The random values have no seed, so the plots differ from the saved outputs.
+
+The rendered page is `jupyter nbconvert --to html aikasarjat_extra.ipynb` on the saved outputs, pushed to the `gh-pages` branch as `index.html`. Colab's table-button scripts are left out of it, since they only work inside Colab.
 
 Status: the repo started in 2018 as a first Git test (`hello_world.txt`). The notebook was added on 2024-03-06, no updates since.
